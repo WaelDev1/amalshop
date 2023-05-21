@@ -1,0 +1,15 @@
+.ship-address {
+    display: flex;
+    padding:10px;
+
+}
+.ship-address .ship-address-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px 0;
+}
+.ship-address .ship-address-header h4 {margin: 0;}
+.ship-address .ship-address-header button {border: none; color: green; padding:10px;border-radius: 8px;}
+.ship-address .ship-address-btns {margin: 8px 0;border-top: 1px dashed #888;}
+.ship-address .ship-address-btns button {background-color: transparent;color:green;margin:5px;border: none;margin: 0 5px 0 0;padding: 0;}

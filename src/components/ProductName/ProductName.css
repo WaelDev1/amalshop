@@ -1,0 +1,39 @@
+ .product-details {
+  width: 350px;
+} 
+.productName{
+  width: 380px;
+}
+.productName .productHeader {
+  display: flex;
+  align-items: center;
+}
+
+.productDetails .productHeader h2 {
+    margin-bottom: 0 0 10px;
+}
+.productDetails .productPrice h4 { 
+  margin: 0;
+
+}
+ .productPrice .linethroughPrice  {
+  text-decoration: line-through;
+  font-style: normal;
+  font-weight: lighter;
+  font-size: 13px;
+ }
+ .productPrice .unitPrice{
+  font-size: 16px;
+ }
+ .productPrice{
+  padding: 10px 0;
+  
+ }
+ .productPrice .productOnSale{ 
+  color: #EA5455;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  padding-right: 8px;
+ }
+ 

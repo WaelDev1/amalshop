@@ -1,0 +1,24 @@
+/* // Generated with util/create-component.js */
+.foo-bar {
+  color: var(--harvey-green);
+}
+
+.title-wrapper{
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+}
+.color-wrapper {
+  display: flex ;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 1px;
+ 
+}
+
+.colors-name{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  margin: 6px 0;
+}

@@ -1,0 +1,14 @@
+
+.order-history .order-history-links a {
+    text-decoration: none;
+    display: block;
+    border-bottom: 1px solid #e5e5e5;
+    font-weight: bold;
+    padding-bottom: 10px
+}
+
+.order-history .order-history-links a .arrow-icon{
+    position: relative;
+    top: 2px ;
+    margin-right: 7px;
+}

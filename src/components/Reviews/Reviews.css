@@ -1,0 +1,30 @@
+.reviews-stars {
+    margin-left: 10px;
+} 
+
+.reviews-filter {
+    list-style: none;
+    display: flex;
+    padding: 0;
+}
+
+.reviews-filter li  {
+    margin-right:5px; 
+    border: 1px solid #333;
+    padding: 5px 8px;
+    border-radius: 15px;
+    cursor:pointer;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    width: 50px;
+    font-weight: bold;
+ 
+}  
+.reviews-filter li.active {
+    background-color: green;
+    color: white;
+    border-color: green;
+} 
+
+ 

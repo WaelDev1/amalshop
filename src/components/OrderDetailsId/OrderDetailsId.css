@@ -1,0 +1,31 @@
+.order-details-id{
+    display: flex;
+    width: 250px;
+    justify-content: space-around;
+    margin: 10px 0;
+}
+
+.order-details-id .icon-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.order-details-id .icon-wrapper .order-icon {
+    background-color:#b3c3ba;
+    color: #FFF;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 8px;
+    
+
+}
+.order-details-id .order-details h3 {
+   margin: 0;
+}
+.order-details-id .order-details span {
+    color:#BBB
+}
+.order-details-id .order-details .point-icon {
+    color:lightgreen
+}

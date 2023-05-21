@@ -1,0 +1,14 @@
+.delivery-method {
+    display: flex;
+    padding:10px;
+    position: relative;
+
+}
+.delivery-method .delivery-method-header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 5px 0;
+}
+.delivery-method .delivery-method-header h4 {margin: 0;} 
+.delivery-method .delivery-method-header span {font-size:14px;padding: 3px; background-color: lightgreen;color:white; font-weight:bold;position: absolute;right: 10px; top: 10px; }

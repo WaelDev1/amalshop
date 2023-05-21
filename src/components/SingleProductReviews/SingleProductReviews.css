@@ -1,0 +1,31 @@
+.single-product-reviews  {
+    width: 500px;
+    margin: 35px 0;
+}
+
+.single-product-reviews .single-product-header {
+   display: flex;
+   align-items: center;
+}
+
+.single-product-reviews .single-product-header img {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+.single-product-reviews .single-product-header .single-product-header-about {
+    display: flex; 
+    flex-direction: column;
+}
+ 
+.single-product-reviews .single-product-header .single-product-header-about h4 {
+    margin-bottom: 0;
+    text-transform: capitalize;
+    margin-left: 5px;
+}
+
+.single-product-reviews .single-product-body p{
+   color: #888;
+   font-size: 15px;
+}

@@ -1,0 +1,24 @@
+.order-shipping-information h4 {
+    color:#888;
+    letter-spacing: 0.3px;
+    padding: 8px 0;
+    border-bottom:1px solid #e5e5e5;
+}
+
+.order-shipping-information ul {
+    list-style: none;
+    width: 350px;
+}
+
+.order-shipping-information ul li {
+    font-weight: bold;
+    color: #888;
+    font-size: 14px ;
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 0;
+}
+.order-shipping-information ul li span {
+     font-weight: initial;
+     color: #666;
+}

@@ -1,0 +1,45 @@
+.description-accordion {
+  width: 600px;
+  box-shadow: none !important;
+  padding: 0;
+  margin: 0;
+}
+
+.accordion-summary {
+  padding: 0;
+  margin: 0;
+}
+
+.descTitleWrapper {
+  margin: 0 !important;
+}
+.descTitleWrapper * {
+  margin: 0 !important;
+}
+
+.accordion-details {
+  padding: 0;
+  margin: 0;
+}
+.accordion-details *:first-child{
+  margin-top: 0 !important;
+}
+.css-o4b71y-MuiAccordionSummary-content{
+  margin: 0 !important;
+}
+.css-sh22l5-MuiButtonBase-root-MuiAccordionSummary-root.Mui-expanded {
+  min-height: 36px;
+}
+@media only screen and (max-width: 600px) {
+  .description-accordion {
+    width: 100%;
+  }
+
+  .descTitleWrapper {
+    font-size: 1rem;
+  }
+
+  .accordion-details {
+    padding-top: 10px;
+  }
+}
