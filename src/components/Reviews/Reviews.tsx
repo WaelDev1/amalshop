@@ -10,7 +10,7 @@ import SingleProductReviews from '../SingleProductReviews/SingleProductReviews';
 
 
 type Props = {
-  children:  JSX.Element   
+  children?:  JSX.Element   
 }
 const Reviews = ({children}:Props) => {
 
@@ -27,7 +27,7 @@ const Reviews = ({children}:Props) => {
     <h3>Reviews</h3> 
  
     </AccordionSummary>
-    <AccordionDetails  >
+    <AccordionDetails style={{padding:'50px 0'}} >
           <div style={{textAlign:'left' , display:'flex' , alignItems:'center'}}>
              <Rating name="read-only" value={4} readOnly />
              <span className="reviews-stars"> <b>4.5 </b>( 2 reviews )</span>
@@ -43,6 +43,7 @@ const Reviews = ({children}:Props) => {
         <SingleProductReviews img="https://placehold.co/80x80" name="patrick luis" stars={4} review="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,"  date="December 10,2018" />
         <SingleProductReviews img="https://placehold.co/80x80" name="patrick luis" stars={4} review="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,"  date="December 10,2018" />
         {children}
+        
     </AccordionDetails>
   </Accordion> 
   )

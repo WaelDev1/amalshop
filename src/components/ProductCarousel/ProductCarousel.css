@@ -1,0 +1,40 @@
+.product-carousel {
+    position: relative;
+    max-height: 100vh;
+}
+.product-carousel img {
+ height: 400px;   
+ width: 100%;
+}
+.product-carousel .control-dots li {
+    width: 12px !important;
+    height: 12px !important;
+    box-shadow: none !important;
+    margin: 5px !important;
+    background-color: #a59a9a;
+}
+
+.product-carousel-icons {
+
+    position: absolute;
+    top: 0;
+    width: 100%;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.product-carousel-icons .links {
+    font-size: 22px;
+}
+.product-carousel-icons .icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.product-carousel-icons .icons .heart-icon {
+    color: red;
+    font-size: 22px;
+    position: relative;
+    top: 3px;
+}
